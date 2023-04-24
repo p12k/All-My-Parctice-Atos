@@ -1,0 +1,50 @@
+// //document.getElementsByTagName("h1")[0].innerText="Pooja";
+
+// var headername= document.createComment("h3");
+// var text= document.createTextNode("This is Practice tutorial for javascript");
+// headername.appendChild(text);
+// document.getElementsByTagName("body")[0].appendChild(headername);
+
+// var para= document.createElement("P");
+//  var text = document.createTextNode("Paragraphljfjlsfjdlfjdlfjdlfjfldjfdldfldkfdfkd;fdkf;dfdfd");
+//  para.appendChild(text);
+//  document.getElementsByTagName("body")[0].appendChild(para);
+
+
+
+
+// var input= document.createElement("input");
+//  input.setAttribute("type","text");
+//  input.setAttribute("value","abcsdds")
+//  document.getElementsByTagName("body")[0].appendChild(input);
+
+// var textarea = document.createElement("textarea");
+// textarea.setAttribute("rows","5");
+// textarea.setAttribute("cols","5");
+// textarea.innerText="kjlkjl";
+// //textarea.setAttribute("placeholder","ghantakdlfdfld");
+// document.getElementsByTagName("body")[0].appendChild(textarea);
+const tagname= "p";
+const lAttribute={
+ "type" :"text" ,
+ "value":"textbox"  
+};
+const text="this is my paragarph";
+
+function createElement(tagname,lAttribute,text,isFormElement){
+let element = document.createElement(tagname);
+let lenAttr = Object.keys(lAttribute).length;
+for(let i=0; i<lenAttr; i++){
+    let key=Object.keys(lAttribute)[i];
+    element.setAttribute(key,lAttribute[key]);
+
+}
+
+if(!isFormElement){
+    element.innerText=text;
+}
+document.getElementsByTagName("body")[0].appendChild(element);
+}
+createElement(tagname,lAttribute,text,false);//calling the function 
+createElement("input",{"type":"text","value":"hjjkh"},"",true)
+createElement("div",{"id":"practice"},"practicejkdjsjs",false)

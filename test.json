@@ -1,0 +1,95 @@
+ [
+    {
+
+"Name": "Pooja",
+"Age": 25,
+"Designation":"developer",
+"Salary": 15000.96,
+"Mobile Number": 8962173474
+
+ },
+  {
+
+"Name": "Aman",
+"Age": 28,
+"Designation":" Senior developer",
+"Salary": 85000.96,
+"Mobile Number": 8962173479
+
+ },
+  {
+
+"Name": "Raman",
+"Age": 29,
+"Designation":" Junior developer",
+"Salary": 25000.96,
+"Mobile Number": 8962173478
+
+ },
+  {
+
+"Name": "Naman",
+"Age": 35,
+"Designation":"Team Lead",
+"Salary": 115000.96,
+"Mobile Number": 9962173474
+
+ },
+  {
+
+"Name": "Chaman",
+"Age": 85,
+"Designation":"Manager",
+"Salary": 245000.96,
+"Mobile Number": 8962173474
+
+ }, {
+
+"Name": "Taman",
+"Age": 33,
+"Designation":"Manager",
+"Salary": 434000.96,
+"Mobile Number": 9962173472
+
+ },
+  {
+
+"Name": "Chamali",
+"Age": 45,
+"Designation":"Director Manager",
+"Salary": 985000.96,
+"Mobile Number": 8962173489
+
+ },
+  {
+
+"Name": "Champa",
+"Age": 65,
+"Designation":"Trainee",
+"Salary": 135000.96,
+"Mobile Number": 89621734799
+
+ },
+  {
+
+"Name": "Pushpa",
+"Age": 23,
+"Designation":"inter",
+"Salary": 15000.96,
+"Mobile Number": 8962173409
+
+ },
+ 
+  {
+
+"Name": "Pawan",
+"Age": 45,
+"Designation":"Associate Develper",
+"Salary": 9815000.96,
+"Mobile Number": 8962173465
+
+ }
+ 
+ 
+ 
+ ]
